@@ -1,0 +1,127 @@
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:34:40] "GET / HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:34:46] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:34:46] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:40:08] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:40:10] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:41:06] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:41:30] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:42:31] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:07] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:08] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:09] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:10] "GET / HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET /static/addtohomescreen.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET /static/addtohomescreen.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET /static/jquery.magnific-popup.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET /static/logo_prim.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET /static/magnific-popup.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET /static/application.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET /static/RecordRTC.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET /static/application.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:32] "GET /video_feed HTTP/1.1" 200 -
+INFO:root:Snapshot taken at  2018-06-30 18:43:48.584790
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:43:48] "GET /get_frame?options=save HTTP/1.1" 204 -
+INFO:root:Video recording started at 2018-06-30 18:44:13.316513
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:44:13] "GET /?options=record HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:44:13] "GET /static/spinner.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:44:13] "GET /video_feed_record HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:45:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:45:33] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:45:48] "GET /get_frame HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:47:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:47:47] "GET /video_feed HTTP/1.1" 200 -
+INFO:root:Snapshot taken at  2018-06-30 18:48:34.618867
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:48:34] "GET /get_frame?options=save HTTP/1.1" 204 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:51:36] "POST /toggle_online HTTP/1.1" 302 -
+INFO:root:Active security started at 2018-06-30 18:51:36.744561
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:51:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:51:37] "GET /video_feed HTTP/1.1" 200 -
+INFO:root:Figure has been Detected at 2018-06-30 18:51:42.663125
+INFO:root:Sending notification  2018-06-30 18:51:42.741986
+WARNING:root:Error sending notification  2018-06-30 18:51:42.998005
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:54:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:54:55] "GET /video_feed HTTP/1.1" 200 -
+INFO:root:Active security started at 2018-06-30 18:55:12.925124
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:55:12] "POST /toggle_online HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:55:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:55:13] "GET /video_feed HTTP/1.1" 200 -
+INFO:root:Figure has been Detected at 2018-06-30 18:55:25.948931
+INFO:root:Sending notification  2018-06-30 18:55:26.053296
+WARNING:root:Error sending notification  2018-06-30 18:55:26.536251
+INFO:root:Sending email 2018-06-30 18:55:31.629820
+INFO:root:Error Sending Mail 2018-06-30 18:55:31.893572
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:58:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:58:06] "GET /video_feed HTTP/1.1" 200 -
+INFO:root:Active security started at 2018-06-30 18:58:15.804141
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:58:15] "POST /toggle_online HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:58:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:58:16] "GET /video_feed HTTP/1.1" 200 -
+INFO:root:Figure has been Detected at 2018-06-30 18:58:23.677668
+INFO:root:Sending notification  2018-06-30 18:58:23.768224
+WARNING:root:Error sending notification  2018-06-30 18:58:24.014170
+INFO:root:Sending email 2018-06-30 18:58:29.166485
+INFO:root:Error Sending Mail 2018-06-30 18:58:29.404154
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:59:39] "POST /toggle_online HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:59:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 18:59:39] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:05:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:05:55] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:06:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:06:09] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:06:26] "GET /get_frame HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:09:29] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:09:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:09:32] "GET /static/jquery.magnific-popup.js?_=1530403769719 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:09:32] "GET /static/RecordRTC.js?_=1530403769720 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:09:32] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:09:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 19:09:43] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:16] "GET / HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:22] "GET /static/jquery.magnific-popup.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:22] "GET /static/addtohomescreen.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:22] "GET /static/application.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:22] "GET /static/logo_prim.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:22] "GET /static/RecordRTC.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:22] "GET /static/magnific-popup.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:22] "GET /static/application.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:22] "GET /static/addtohomescreen.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:22] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:31:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:32:52] "GET / HTTP/1.1" 401 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:32:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:32:59] "GET /static/application.css HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:32:59] "GET /static/magnific-popup.css HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:32:59] "GET /static/addtohomescreen.css HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:32:59] "GET /static/jquery.magnific-popup.js HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:32:59] "GET /static/RecordRTC.js HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:32:59] "GET /static/application.js HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:33:00] "GET /static/addtohomescreen.js HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:33:00] "GET /static/logo_prim.png HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:33:00] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:33:01] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:33:01] "GET /static/icon-152x152.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:33:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:33:53] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:33:53] "GET /static/icon-152x152.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:38:40] "GET / HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:39:07] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:39:10] "GET / HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:47:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:47:24] "GET /video_feed HTTP/1.1" 200 -
+INFO:werkzeug:10.4.99.197 - - [30/Jun/2018 20:47:26] "GET /static/icon-152x152.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:49:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jun/2018 20:49:26] "GET /video_feed HTTP/1.1" 200 -
